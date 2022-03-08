@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cgol/static/css/main.59271806.css",
+    "main.js": "/cgol/static/js/main.8d4d3c64.js",
+    "index.html": "/cgol/index.html",
+    "main.59271806.css.map": "/cgol/static/css/main.59271806.css.map",
+    "main.8d4d3c64.js.map": "/cgol/static/js/main.8d4d3c64.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59271806.css",
+    "static/js/main.8d4d3c64.js"
+  ]
+}
