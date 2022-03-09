@@ -14,7 +14,6 @@ function CellSizeSelect(props) {
         value={cellSize}
         onChange={(e) => handleChange(e)}
       >
-        <MenuItem value="4">4px</MenuItem>
         <MenuItem value="6">6px</MenuItem>
         <MenuItem value="8">8px</MenuItem>
         <MenuItem value="10">10px</MenuItem>

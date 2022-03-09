@@ -13,7 +13,6 @@ function IterationSpeedSelect(props) {
         value={iterationSpeed}
         onChange={(e) => handleChange(e)}
       >
-        <MenuItem value="5">5ms</MenuItem>
         <MenuItem value="25">25ms</MenuItem>
         <MenuItem value="125">125ms</MenuItem>
         <MenuItem value="250">250ms</MenuItem>
