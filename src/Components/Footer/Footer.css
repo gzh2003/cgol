@@ -3,13 +3,24 @@
     flex-direction: row;
 }
 
+.footer-content-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .footer-content{
     height: 40px;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 0 20px;
     align-items: center;
 }
 
 .footer-item{
     padding:0 3px;
+}
+
+.footer-typ{
+    font-size: 12px;
 }
 
