@@ -41,7 +41,6 @@ const checkGridNeighbours = (i, y, rows, cols, grid) => {
 };
 
 function App() {
-  //States
   const [windowDimensions, setWindowDimensions] = useState({
     width: window.innerWidth,
     height: window.innerHeight,
@@ -72,7 +71,6 @@ function App() {
   const toggleSidebar = () => {
     setShowSidebar(!showSidebar);
   };
-  //Mouse Events
   const handleMouseDown = (i, y) => {
     const tempGrid = JSON.parse(JSON.stringify(grid));
     tempGrid[i][y] = grid[i][y] ? 0 : 1;
@@ -89,7 +87,6 @@ function App() {
     setMouseDown(false);
   };
 
-  //Simulate CGOL
   const runSimulation = () => {
     if (!runningRef.current) return;
     setGrid((prevGrid) => {
@@ -116,7 +113,6 @@ function App() {
     }
   };
 
-  //Btn Stuff
   const handleToggleSimulation = () => {
     runningRef.current = !runningRef.current;
     if (runningRef.current) {
@@ -176,7 +172,6 @@ function App() {
     setGrid(generateEmptyGrid(tempRows, tempCols));
   };
 
-  //Window adjustments
   useEffect(() => {
     function handleResize() {
       endSimulation();
